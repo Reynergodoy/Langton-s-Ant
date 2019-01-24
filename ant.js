@@ -36,7 +36,7 @@ export class Ant {
         for (let i = 0; i < x; i++) {
             state.push([]);
             for (let j = 0; j < y; j++) {
-                state[i].push();
+                state[i].push(0);
             }
         }
         
