@@ -19,18 +19,18 @@ export class Ant {
         if (cardinal === 'N') {
             if (movement === 'R') {
                 this.pos[0] += 1; // sets new x coordinate
-                this.pos[2] = 'R'; // sets new cardinal direction
+                this.pos[2] = 'E'; // sets new cardinal direction
             } else if (movement === 'L') {
                 this.pos[0] -= 1;
-                this.pos[2] = 'L';
+                this.pos[2] = 'W';
             }
         } else if (cardinal === 'S') {
             if (movement === 'R') {
                 this.pos[0] -= 1;
-                this.pos[2] = 'L';
+                this.pos[2] = 'W';
             } else if (movement === 'L') {
                 this.pos[0] += 1;
-                this.pos[2] = 'R';
+                this.pos[2] = 'E';
             }
         } else if (cardinal === 'E') {
             if (movement === 'R') {
